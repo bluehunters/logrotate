@@ -1,3 +1,4 @@
+```
 参数                         功能
    compress                     通过gzip 压缩转储以后的日志
    nocompress                   不需要压缩时，用这个参数
@@ -23,3 +24,4 @@
    tabootext [+] list           让logrotate 不转储指定扩展名的文件，缺省的扩展名是：.rpm-orig, .rpmsave, v, 和 ~ 
    size size                    当日志文件到达指定的大小时才转储，Size 可以指定 bytes (缺省)以及KB (sizek)或者MB (sizem).
 
+```
