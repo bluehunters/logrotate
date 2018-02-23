@@ -1,0 +1,11 @@
+/usr/local/php/var/log/php-fpm.log
+ {
+    daily
+    rotate 10
+    copytruncate
+    delaycompress
+    compress
+    notifempty
+    missingok
+}
+
